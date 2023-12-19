@@ -1,0 +1,55 @@
+img{
+  width: 300px;
+}
+
+.navbar{
+  background-color: purple;
+  height: 10vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer{
+  background-color: purple;
+  height: 5vh;
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  text-align: center; 
+  margin-top: auto;
+}
+
+.newMemeForm{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  border: solid black 2px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.newMemeForm > * {
+  margin-bottom: 5px;
+}
+
+.form--container{
+  display: flex;
+  justify-content: space-around;
+  height: 25vh;
+  align-items: center;
+}
+
+.list--container{
+  height: 60vh;
+  background-color: gray;
+  border: black solid 2px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.meme--list{
+  display: flex;
+  overflow-x: auto;
+}
